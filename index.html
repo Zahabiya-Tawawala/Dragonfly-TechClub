@@ -5,7 +5,52 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Dragonfly|Tech Club</title>
     <link rel="stylesheet" href="index.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
   </head>
-  <body></body>
+  <body>
+    <div class="container">
+      <header>
+        <nav class="navbar-container">
+          <ul class="nav-links" id="sidemenu">
+            <li id="active">Home</li>
+            <li>About us</li>
+            <li>Services</li>
+            <li>Community</li>
+            <li>Contact us</li>
+            <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+          </ul>
+          <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+          <div class="login_signup-btn">
+            <button class="login-btn"><a href="#">Login</a></button>
+            <button class="signup-btn"><a href="#">Signup</a></button>
+          </div>
+        </nav>
+      </header>
+      <div class="page1">
+        <div class="left-col">
+          <h1 class="hero-text">
+            Welcome to Techclub, <br />
+            Where Tech Meets passion
+          </h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore
+            dolores amet numquam, neque aliquam, repellendus expedita
+            repudiandae aperiam dolore nemo velit aut atque provident inventore
+            quae voluptatibus rem quisquam veniam.
+          </p>
+          <div class="btn">
+            <button class="get_started-btn">Get started</button>
+            <button class="contact_us-btn">Contact Us</button>
+          </div>
+        </div>
+        <div class="right-col">
+          <img src="./Assets/Adobe_Express_20240115_1717320_1.png" alt="" />
+        </div>
+      </div>
+    </div>
+  </body>
   <script src="index.js"></script>
 </html>
