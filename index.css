@@ -7,14 +7,22 @@
 .navbar-container{
     width: 100%;
     padding: 1vw;
-    height: 80px;
+    height: 60px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: #ffffff;
+    border-bottom: 1px solid grey;
     
 }
-
+/* ----------------nav-logo------------- */
+.navbar-container .logo h1{
+    font-size: 12px;
+    font-family: cantarell;
+    letter-spacing: 6px;
+    font-weight: 200;
+    margin-left: 20px;
+}
 /* -------------navbar-links---------- */
 .nav-links{
     display: flex;
@@ -48,6 +56,11 @@
     font-size: 14px;
     color: black;
 }
+.contact_us-btn a{
+    text-decoration: none;
+    font-size: 14px;
+    color: black;
+}
 .signup-btn a{
     text-decoration: none;
     font-size: 14px;
@@ -56,7 +69,7 @@
 
 /* -------------active-home-link------------ */
 #active{
-    background: -webkit-linear-gradient(purple, orange);
+    background: linear-gradient(to right, purple, orange);
     background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -70,22 +83,57 @@
 .page1{
     min-height: 100vh;
     width: 100%;
-    background-color: aqua;
+   
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 3vw;
 }
+/* --------------left-col---------------- */
 .page1 .left-col{
     flex-basis: 40%;
+}
+.left-col .hero-text {
+    font-size: 30px;
+    margin-bottom: 35px;
+    background: linear-gradient(to right, purple, orange);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+   
+}
+.left-col p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+/* -------------buttons--------------- */
+.btn{
+    margin-top: 50px;
+}
+.btn .get_started-btn{
+    padding: 1vw;
+    font-size: 16px;
+    background: linear-gradient(to right, #AA3D71, #F1966E);
+    border: none;
+    border-radius: 8px;
+    width: 180px;
+}
+.btn .get_started-btn a{
+text-decoration: none;
+color: white;
+}
+.btn .contact_us-btn{
+    padding: 1vw;
+    font-size: 16px;
+
+    border: 1px solid linear-gradient(to right,#AA3D71,#F1966E);
+    border-radius: 8px;
+    width: 180px;
 }
 /* ----------------Right-Col----------------------- */
 .right-col{
     flex-basis: 40%;
 }
-.right-col h1 {
-    font-size: 60px;
-}
+
 .right-col img{
     height: 100%;
     width: 100%;
