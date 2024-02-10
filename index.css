@@ -139,4 +139,130 @@ color: white;
     width: 100%;
     object-fit: cover;
 }
+/* ------------------page2------------------------ */
 
+.page2{
+    min-height: 100vh;
+    width: 100%;
+    /* background-color: antiquewhite; */
+    align-items: center;
+    padding: 2.2vw;
+    text-align: center;
+}
+.page2 h1{
+   font-size: 6vw;
+   background: linear-gradient(to right, purple, orange);
+   background-clip: text;
+   -webkit-text-fill-color: transparent;
+   margin-bottom: 1vw;
+}
+/* ---------------Community cards---------------------- */
+.community_card{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+   
+    padding: 1vw;
+    position: relative;
+    margin-top: 2vw;
+}
+/* -------------------card1-------------- */
+.card1{
+    flex-basis: 32%;
+   
+    background-color: #f7f7f7;
+   height: 350px;
+   border-radius: 12px;
+  
+   padding: 1vw;
+}
+.card1 h3{
+    margin-top: 4vw;
+    font-size: 3vw;
+}
+.card1 p{
+    margin-top: 2vw;
+    font-size: 14px;
+}
+.card1 button{
+    margin-top: 6vw;
+    padding: 1vw;
+    width: 180px;
+    border-radius: 0.7vw;
+}
+.card1 button a{
+    text-decoration: none;
+    font-size: 15px;
+    background: linear-gradient(to right, purple, orange);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* --------------------card2----------------- */
+.card2{
+    flex-basis: 32%;
+    box-shadow: 0.5vw 0.5vw 1.5vw;
+    background-color: #490971;
+   height: 350px;
+   border-radius: 12px;
+   scale: 1;
+   padding: 1vw;
+}
+.card2 h3{
+    margin-top: 4vw;
+    font-size: 3vw;
+    color: #f7f7f7;
+}
+.card2 p{
+    margin-top: 2vw;
+    font-size: 14px;
+    color: #f7f7f7;
+}
+.card2 button{
+    margin-top: 6vw;
+    padding: 1vw;
+    width: 180px;
+    border-radius: 0.7vw;
+    background: linear-gradient(to right, #AA3D71, #F1966E);
+    border: none;
+}
+.card2 button a{
+    text-decoration: none;
+    font-size: 15px;
+    color:#f7f7f7;
+    
+}
+
+/* -----------------card3------------------- */
+
+.card3{
+    flex-basis: 32%;
+    
+    background-color: #f7f7f7;
+    height: 350px;
+    border-radius: 12px;
+    padding: 1vw;
+}
+.card3 h3{
+    margin-top: 4vw;
+    font-size: 3vw;
+}
+.card3 p{
+    margin-top: 2vw;
+    font-size: 14px;
+}
+.card3 button{
+    margin-top: 6vw;
+    padding: 1vw;
+    width: 180px;
+    border-radius: 0.7vw;
+    border: liner-gradient(to right,purple,orange);
+    
+}
+.card3 button a{
+    text-decoration: none;
+    font-size: 15px;
+    background: linear-gradient(to right, purple, orange);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
