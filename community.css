@@ -1,0 +1,81 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* ----------Navbar-container---------- */
+.navbar-container{
+    width: 100%;
+    padding: 1vw;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    border-bottom: 1px solid grey;
+    
+}
+/* ----------------nav-logo------------- */
+.navbar-container .logo h1{
+    font-size: 12px;
+    font-family: cantarell;
+    letter-spacing: 6px;
+    font-weight: 200;
+    margin-left: 20px;
+}
+/* -------------navbar-links---------- */
+.nav-links{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+    gap: 15px;
+}
+.nav-links li a{
+    text-decoration: none;
+    font-size: 15px;
+    color: black;
+}
+/* -------login-signup-btn------------ */
+
+.login_signup-btn .login-btn{
+    padding: 1vw;
+    background-color:transparent;
+    border: 1px solid black;
+    border-radius: 12px;
+}
+.login_signup-btn .signup-btn{
+    padding: 1vw;
+    background-color:black;
+    
+    border: 1px solid black;
+    border-radius: 12px;
+}
+
+.login-btn a{
+    text-decoration: none;
+    font-size: 14px;
+    color: black;
+}
+.contact_us-btn a{
+    text-decoration: none;
+    font-size: 14px;
+    color: black;
+}
+.signup-btn a{
+    text-decoration: none;
+    font-size: 14px;
+    color: white;
+}
+
+/* -------------active-home-link------------ */
+#active{
+    background: linear-gradient(to right, purple, orange);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+/* -------------Open-close-menu------------- */
+.navbar-container .fa-solid{
+    display: none;
+    position: relative;
+}

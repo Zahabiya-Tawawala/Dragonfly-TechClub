@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* --------------------------join community---------------- */
+.join-community-container{
+    height: 400px;
+    width: 100%;
+    background-color: #5861b079;
+    border: 1px solid black;
+    text-align: center;
+    padding: 2vw;
+}
+.join-community-container h2{
+    font-size: 30px;
+    text-align: center;
+    margin: 3vw;
+}
+.join-community-container p{
+    font-size: 18px;
+    text-align: center;
+    margin: 2vw;
+}
+.join-community-container ul{
+    text-align: center;
+    list-style: none;
+    
+}
+.join-community-container ul li{
+    font-size: 14px;
+}
+.join-community-container .join-btn{
+    padding: 1vw;
+    text-align: center;
+    border: none;
+    background-color: black;
+    margin-top: 3vw;
+    width: 100px;
+    
+}
+.join-community-container .join-btn a{
+    text-decoration: none;
+    font-size: 14px;
+    color: white;
+}

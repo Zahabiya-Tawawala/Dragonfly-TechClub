@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us |Dragonfly</title>
+    <link rel="stylesheet" href="contact.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar-container">
+        <div class="logo">
+          <h1>DRAGONFLY <br />TECH CLUB</h1>
+        </div>
+        <ul class="nav-links" id="sidemenu">
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="./about.html">About us</a></li>
+          <li><a href="./community.html">Community</a></li>
+          <li id="active"><a href="./Contact.html">Contact us</a></li>
+          <li>
+            <div class="login_signup-btn">
+              <button class="login-btn"><a href="#">Login</a></button>
+              <button class="signup-btn"><a href="#">Signup</a></button>
+            </div>
+          </li>
+          <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+        </ul>
+        <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+      </nav>
+    </header>
+    <div class="form_container">
+      <h2>Contact Form</h2>
+      <div class="contact_form">
+        <form action="">
+          <input
+            type="text"
+            id="name"
+            name="name"
+            placeholder="Name"
+            required
+          />
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Email"
+            required
+          />
+          <input
+            type="text"
+            id="contact"
+            name="contact"
+            placeholder="Contact"
+            required
+          />
+          <select name="branch" id="branch" required>
+            <option value="btech">B Tech</option>
+            <option value="bca">BCA</option>
+            <option value="bsc">Bsc IT</option>
+          </select>
+          <input
+            type="text"
+            id="message"
+            name="message"
+            rows="10"
+            placeholder="Message"
+          />
+          <button>Submit</button>
+        </form>
+      </div>
+    </div>
+    <script>
+      var sidemenu = document.getElementById("sidemenu");
+
+      function openmenu() {
+        sidemenu.style.top = "0";
+      }
+      function closemenu() {
+        sidemenu.style.top = "-300px";
+      }
+    </script>
+  </body>
+  <!-- ----------------------Footer------------------- -->
+  <footer>
+    <hr />
+    <div class="part1">
+      <div class="contact">
+        <h3>Contact</h3>
+        <h4>Email:your@email</h4>
+        <h4>Contact:+910000000000</h4>
+        <h4>Address:Chhatrapati Shivaji Maharaj University, Navi Mumbai</h4>
+        <i class="fa-brands fa-square-whatsapp"></i>
+      </div>
+      <div class="quick_links">
+        <h3>Quick Links</h3>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="./about.html">About us</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+      <div class="foot_communities">
+        <h3>Communities</h3>
+        <h4><a href="#">Programming Languages</a></h4>
+        <h4><a href="#">AI & ML</a></h4>
+        <h4><a href="#">Data Science</a></h4>
+        <h4><a href="#">App Devlopment</a></h4>
+        <h4><a href="#">Web Devlopment</a></h4>
+        <h4><a href="#">Game Devlopment</a></h4>
+        <h4><a href="#">Cyber Security</a></h4>
+      </div>
+    </div>
+    <br /><br />
+    <hr />
+    <div class="part2">
+      <h3>2024 All Copyrights Reserved</h3>
+      <div class="social_media-icons">
+        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+        <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+      </div>
+    </div>
+  </footer>
+</html>

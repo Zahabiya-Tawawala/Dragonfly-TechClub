@@ -1,0 +1,54 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* --------------------------------purpose and outlook----------------------- */
+.head-disc{
+   
+    text-align: center;
+    padding: 2vw;
+}
+.head-disc h1{
+    margin: 1.5vw;
+    background: linear-gradient(to right, purple, orange);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+.head-disc h3{
+    margin: 1.5vw;
+}
+.head-disc-p2{
+    height: 600px;
+    width: 100%;
+    padding: 4vw 7vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+   
+
+}
+.head-disc-p2 .card{
+    height: 250px;
+    width: 250px;
+    padding: 1.5vw;
+    background-color: azure;
+    margin: 1vw;
+    flex-basis: 30%;
+    border-radius: 12px;
+}
+.head-disc-p2 .card img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+.head-disc-p2 .card p{
+    font-size: 20px;
+    font-weight: 300;
+    margin-top: 2vw;
+}
+
+
+

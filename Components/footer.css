@@ -1,0 +1,114 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+footer{
+    min-height: 300px;
+    width: 100%;
+    background-color: grey;
+}
+/* --------------------part1-------------------- */
+
+footer .part1{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+/* ---------------Contact----------------- */
+.part1 .contact{
+    flex-basis: 25%;
+}
+.part1 .contact h3{
+    font-size: 20px;
+    margin-bottom: 1vw;
+}
+.part1 .contact h4{
+    font-size: 15px;
+    margin-top: 1vw;
+}
+.part1 .contact i{
+    margin-top: 1vw;
+    font-size: 25px;
+}
+/* -------------------------Quick-links------------------ */
+.part1 .quick_links{
+    display: block;
+    flex-basis: 25%;
+    
+}
+.part1 .quick_links h3{
+    font-size: 20pxs;
+    margin-bottom: 1vw;
+}
+.part1 .quick_links ul{
+    list-style: none;
+}
+.part1 .quick_links ul li a{
+    text-decoration: none;
+    color: black;
+}
+.part1 .quick_links ul li {
+    text-decoration: none;
+    color: black;
+    margin-top: 1vw;
+    font-size: 15px;
+    transition: transform 0.5s;
+}
+.part1 .quick_links ul li:hover{
+    transform: translateY(-4px);
+    color: red;
+    
+}
+/* -------------------Communities-------------------- */
+.foot_communities{
+    flex-basis: 25%;
+}
+.foot_communities h3{
+    font-size: 20px;
+    margin-bottom: 1vw;
+    margin-top: 1vw;
+}
+.foot_communities h4{
+    margin-top: 1vw;
+}
+.foot_communities h4 a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    margin-top: 1vw;
+}
+/* -----------------part2-------------- */
+.part2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.8vw;
+    height: 100px;
+}
+/* -------------------------Copyright----------------- */
+.part2 h3{
+    font-size: 15px;
+}
+/* -----------------social media icons-------------- */
+.social_media-icons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.8vw;
+    gap: 10px;
+}
+.social_media-icons a{
+    text-decoration: none;
+    color: black;
+}
+.social_media-icons a i{
+    font-size: 25px;
+    color: black;
+    transition: transform 0.5s;
+}
+.social_media-icons a i:hover{
+    transform: translateY(-5px);
+    font-size: 25px;
+    color:red;
+}
