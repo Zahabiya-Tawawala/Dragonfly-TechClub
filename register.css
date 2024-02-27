@@ -1,0 +1,484 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #f7f7f7;
+}
+/* ----------Navbar-container---------- */
+.navbar-container{
+    width: 100%;
+    padding: 1vw;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    border-bottom: 1px solid grey;
+    
+}
+/* ----------------nav-logo------------- */
+.navbar-container .logo h1{
+    font-size: 12px;
+    font-family: cantarell;
+    letter-spacing: 6px;
+    font-weight: 200;
+    margin-left: 20px;
+}
+/* -------------navbar-links---------- */
+.nav-links{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+    gap: 15px;
+}
+.nav-links li a{
+    text-decoration: none;
+    font-size: 15px;
+    color: black;
+}
+/* -------login-signup-btn------------ */
+
+.login_signup-btn .login-btn{
+    padding: 1vw;
+    background-color:transparent;
+    border: 1px solid black;
+    border-radius: 12px;
+}
+.login_signup-btn .signup-btn{
+    padding: 1vw;
+    background-color:black;
+    
+    border: 1px solid black;
+    border-radius: 12px;
+}
+
+.login-btn a{
+    text-decoration: none;
+    font-size: 14px;
+    color: black;
+}
+.contact_us-btn a{
+    text-decoration: none;
+    font-size: 14px;
+    color: black;
+}
+
+.navbar-container ul li .login_signup-btn .signup-btn a{
+    text-decoration: none;
+    font-size: 14px;
+    color: white;
+    
+}
+
+/* -------------active-home-link------------ */
+#active{
+    background: linear-gradient(to right, purple, orange);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+/* -------------Open-close-menu------------- */
+.navbar-container .fa-solid{
+    display: none;
+    position: relative;
+}
+/* ----------------------Registration-Form----------------- */
+.form_container h2{
+    text-align: center;
+    margin: 2vw;
+    font-size: 40px;       
+}
+.Register_form{
+    display: flex;
+    flex-direction: column;
+    margin-top: 3vw;
+    margin-bottom: 3vw;
+    padding: 2vw 0vw 2vw 0vw;
+    align-items: center;
+
+}
+ form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 3vw;
+    border-radius: 12px;
+    background:linear-gradient(to right,purple,orange);
+    opacity: 80%;
+    gap: 20px;
+    width: 700px;
+    height: 500px;
+
+} 
+
+.Register_form form input{
+    margin: 1vw;
+    padding: 1vw;
+    width: 500px;
+    border-radius: 8px;
+}
+.Register_form form select{
+ width: 500px;
+ padding: 0.8vw;
+ margin-left: 10px;
+ border-radius: 6px;
+}
+.Register_form form select option{
+    width: 400px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    padding: 1vw;
+}
+.Register_form form button{
+    padding: 1vw;
+    width: 200px;
+    margin-left: 10px;
+    border-radius: 12px;
+
+}
+/* -------------------------footer------------------------------- */
+footer{
+    min-height: 300px;
+    width: 100%;
+    background-color: rgba(128, 128, 128, 0.473);
+}
+/* --------------------part1-------------------- */
+
+footer .part1{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+/* ---------------Contact----------------- */
+.part1 .contact{
+    flex-basis: 25%;
+}
+.part1 .contact h3{
+    font-size: 20px;
+    margin-bottom: 1vw;
+}
+.part1 .contact h4{
+    font-size: 15px;
+    margin-top: 1vw;
+}
+.part1 .contact i{
+    margin-top: 1vw;
+    font-size: 25px;
+}
+/* -------------------------Quick-links------------------ */
+.part1 .quick_links{
+    display: block;
+    flex-basis: 25%;
+    
+}
+.part1 .quick_links h3{
+    font-size: 20pxs;
+    margin-bottom: 1vw;
+}
+.part1 .quick_links ul{
+    list-style: none;
+}
+.part1 .quick_links ul li a{
+    text-decoration: none;
+    color: black;
+}
+.part1 .quick_links ul li {
+    text-decoration: none;
+    color: black;
+    margin-top: 1vw;
+    font-size: 15px;
+    transition: transform 0.5s;
+}
+.part1 .quick_links ul li:hover{
+    transform: translateY(-4px);
+    color: red;
+    
+}
+/* -------------------Communities-------------------- */
+.foot_communities{
+    flex-basis: 25%;
+}
+.foot_communities h3{
+    font-size: 20px;
+    margin-bottom: 1vw;
+    margin-top: 1vw;
+}
+.foot_communities h4{
+    margin-top: 1vw;
+}
+.foot_communities h4 a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    margin-top: 1vw;
+}
+/* -----------------part2-------------- */
+.part2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.8vw;
+    height: 100px;
+}
+/* -------------------------Copyright----------------- */
+.part2 h3{
+    font-size: 15px;
+}
+/* -----------------social media icons-------------- */
+.social_media-icons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.8vw;
+    gap: 10px;
+}
+.social_media-icons a{
+    text-decoration: none;
+    color: black;
+}
+.social_media-icons a i{
+    font-size: 25px;
+    color: black;
+    transition: transform 0.5s;
+}
+.social_media-icons a i:hover{
+    transform: translateY(-5px);
+    font-size: 25px;
+    color:red;
+}
+@media only screen and (min-width:600px){ 
+    .nav-links{
+        display: flex;
+        
+        align-items: center;
+        gap: 8px;
+     }
+     .nav-links li a{
+        font-size: 15px;
+     }
+     .login_signup-btn {
+        display: block;
+     }
+     
+}
+@media only screen and (min-width:1200px){
+    .navbar-container{
+        width: 100%;
+        padding: 1vw;
+        height: 130px;
+    }
+    .navbar-container .logo h1{
+        font-size: 16px;
+        letter-spacing: 8px;
+        font-weight: 300;
+
+    }
+    .nav-links{
+        gap: 20px;
+    }
+    .nav-links a{
+        font-size: 30px;
+    }
+    .login_signup-btn .login-btn{
+        width: 100px;
+       }
+       .login_signup-btn .signup-btn{
+        width: 100px;
+       }
+       /* -----------------------------Contact-form---------------------- */
+       .form_container h2{
+        font-size: 50px;
+        margin: 30px;
+       }
+       .contact_form{
+        min-height: 100vh;
+        width: 100%;
+       }
+       .contact_form form{
+        height: 100vh;
+        width: 70%;
+        text-align: center;
+       }
+       .contact_form form input{
+        width: 900px;
+        height: 100px;
+        border-radius: 20px;
+        margin-top: 30px;
+       }
+       .contact_form form select{
+        width: 700px;
+        padding: 10px;
+        border-radius: 10px;
+        margin-top: 30px;
+        margin-left: 20px;
+       }
+       .contact_form form button{
+        margin-top: 50px;
+        padding: 25px;
+        width: 500px;
+       }
+       /* ----------------------------------Footer----------------------------- */
+       footer{
+        min-height: 400px;
+    }
+    .part1 .contact h3{
+        font-size: 30px;
+    }
+    .part1 .contact h4{
+        font-size: 22px;
+    }
+    .part1 .contact i{
+        font-size: 35px;
+    }
+    /* ------------------------quick-links--------------------- */
+    .part1 .quick_links h3{
+        font-size: 30px;
+    }
+    .part1 .quick_links ul li a{
+        font-size: 22px;
+    }
+    /* ------------------------Communities-------------------------- */
+    .foot_communities h3{
+        font-size: 30px;
+    }
+    .foot_communities h4 a{
+        font-size: 22px;
+    }
+    /* ------------------------------Part2---------------------------- */
+    .part2{
+        height: 120px;
+    }
+    .part2 h3{
+        font-size: 22px;
+    }
+    .social_media-icons a i{
+        font-size: 30px;
+    }
+   
+}
+/* --------------------------------------------Mobile-Devices----------------------------- */
+@media only screen and (max-width:600px){
+    /* ---------------------Navbar----------------------- */
+    .navbar-container{
+        width: 100%;
+        min-height: 80px;
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 1vw;
+    }
+    .navbar-container .logo h1{
+        font-size: 12px;
+        letter-spacing: 6px;
+        margin-top: 20px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 2;
+    }
+    .navbar-container .nav-links .fa-solid{
+        display: block;
+        font-size: 30px;
+        margin-top: 4vw;
+        
+      
+    }
+     .navbar-container ul{
+        background-color:#f7f7f7;
+        display: block;
+        padding-top: 16vw;
+        padding-left: 4vw;
+        position: fixed;
+        top: -300px;
+        gap: 10px;
+        height: 300px;
+        width: 100%;
+        transition: top 0.5s;
+        z-index: 1;
+    }
+    .navbar-container .nav-links li{
+        margin-top: 3vw;
+    }
+    .navbar-container ul .login_signup-btn{
+        margin-top: 1vw;
+    }
+    .navbar-container .fa-bars{
+        display: block;
+        position: absolute;
+        font-size: 30px;
+        top: 25px;
+        right: 25px;
+    }
+    /* -----------------------------------Registration-Form--------------------------------- */
+    .form_container h2{
+        font-size: 40px;
+    }
+    .Register_form{
+        margin: auto;
+        /* width: 90%; */
+        justify-content: center;
+    }
+    .Register_form form{
+        min-height: 110vh;
+        width: 100%;
+    }
+    .Register_form form input{
+        width: 300px;
+        padding: 20px;
+        margin-top: 20px;
+    }
+    .Register_form form select{
+        width: 300px;
+        padding: 20px;
+        margin-top: 20px;
+    }
+    .Register_form  form button{
+        padding: 10px;
+        margin-top: 8px;
+    }
+       /* -------------------footer------------------------- */
+       footer{
+        display: flex;
+        flex-direction: column;
+     }
+     footer .part1{
+         display: flex;
+         flex-direction: column;
+         justify-content: start;
+         align-items: start;
+         padding-left: 20px;
+         text-align: start;
+     }
+    .part1 .contact{
+     flex-basis: 100%;
+     margin-top: 10px;
+     margin-bottom: 10px;
+    }
+    .part1  .contact h3{
+     
+     margin-top: 10px;
+     margin-bottom: 10px;
+    }
+    .part1 .contact h4{
+     font-size: 12px;
+    }
+    .part1 .quick_links{
+     margin-top: 10px;
+     margin-bottom: 10px;
+    }
+    .foot_communities{
+     margin-top: 10px;
+     margin-bottom: 10px;
+    }
+ /* ------------------------footer-part2----------------- */
+ .part2 h3{
+     font-size: 10px;
+ }
+ .social_media-icons a i{
+     font-size: 20px;
+ }
+}
