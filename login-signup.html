@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login-SignUp</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+<!-------------------------------------- log in page html -------------------------------------->
+
+  <div class="wrapper">
+    <div class="form-wrapper sign-in">
+      <form action="">
+        <h2>Login</h2>
+        <div class="input-group">
+          <input type="email" required id="login-email">
+          <label>Email</label>
+          <i class="fa-solid fa-envelope"></i>
+        </div>
+        <div class="input-group">
+          <input type="password" required id="login-password">
+          <label>Password</label>
+          <i class="fa-solid fa-lock"></i>
+        </div>
+        <!-- <div class="remember">
+          <label><input type="checkbox"> Remember me</label>
+        </div> -->
+        <button type="submit" id="login-btn">Login</button>
+        <div class="signUp-link">
+          <p>Don't have an account? <a href="#" class="signUpBtn-link">Sign Up</a></p>
+        </div>
+      </form>
+    </div>
+
+<!-------------------------------------- sign up page html -------------------------------------->
+
+    <div class="form-wrapper sign-up">
+      <form action="">
+        <h2>Sign Up</h2>
+        <div class="input-group">
+          <input type="text" required>
+          <label>Username</label>
+          <i class="fa-solid fa-user"></i>
+        </div>
+        <div class="input-group">
+          <input type="email" required >
+          <label>Email</label>
+          <i class="fa-solid fa-envelope"></i>
+        </div>
+        <div class="input-group">
+          <input type="password" required>
+          <label>Password</label>
+          <i class="fa-solid fa-lock"></i>
+        </div>
+        <!-- <div class="remember">
+           <label><input type="checkbox"> I agree to the terms & conditions</label>
+        </div> -->
+        <button type="submit" id="signup-btn">Sign Up</button>
+        <div class="signUp-link">
+          <p>Already have an account? <a href="#" class="signInBtn-link">Login</a></p>
+        </div>
+      </form>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
