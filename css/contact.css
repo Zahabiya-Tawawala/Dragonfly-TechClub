@@ -256,6 +256,9 @@ footer .part1{
      .login_signup-btn {
         display: block;
      }
+    .contact_form form{
+        margin: auto;
+    } 
      
 }
 @media only screen and (min-width:1200px){
@@ -285,16 +288,18 @@ footer .part1{
        /* -----------------------------Contact-form---------------------- */
        .form_container h2{
         font-size: 50px;
-        margin: 30px;
+        margin: 30px auto;
        }
        .contact_form{
         min-height: 100vh;
         width: 100%;
+        margin: 20px auto;
        }
        .contact_form form{
         height: 100vh;
         width: 70%;
         text-align: center;
+        margin: auto;
        }
        .contact_form form input{
         width: 900px;

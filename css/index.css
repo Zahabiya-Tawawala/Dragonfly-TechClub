@@ -4,6 +4,9 @@
     box-sizing: border-box;
     font-family: 'Poppins';
 }
+.container{
+    min-height:100vh;
+}
 /* ----------Navbar-container---------- */
 .navbar-container{
     width: 100%;
@@ -14,6 +17,7 @@
     align-items: center;
     background-color: #ffffff;
     border-bottom: 1px solid grey;
+    
     
 }
 /* ----------------nav-logo------------- */
@@ -148,9 +152,10 @@ color: white;
 }
 /* --------------------------------purpose and outlook----------------------- */
 .head-disc{
-   
+     min-height: 100vh;
+     width: 100%;
     text-align: center;
-    padding: 2vw;
+    
 }
 .head-disc h1{
     margin: 1.5vw;
@@ -797,7 +802,7 @@ footer .part1{
     margin: 1vw;
 }
 .head-disc-p2 .card{
-    height: 220px;
+    height: 240px;
 }
 /* -------------------Page2----------------- */
 .card1{
